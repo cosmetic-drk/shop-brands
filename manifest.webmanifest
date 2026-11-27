@@ -1,0 +1,23 @@
+{
+  "name": "Магазин Института ДРК",
+  "short_name": "Магазин ДРК",
+  "description": "Каталог профессиональной косметики магазина Института «Дом Русской Косметики»: бренды, цены, описания, протоколы и 100% кешбэк на обучение.",
+  "lang": "ru",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#394fd9",
+  "categories": ["shopping", "business", "beauty"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Каталог", "url": "./#ds-catalog", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Новые бренды", "url": "./#ds-brands", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
